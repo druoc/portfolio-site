@@ -8,9 +8,8 @@ const About = () => {
             <br />A full stack software developer from Leeds, West Yorkshire.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            Initially self-taught, I am currently studying with the good folks
+            at Northcoders. Available for work from February 2023 onwards.
           </p>
           <div className="flex justify-center">
             <a
