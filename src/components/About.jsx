@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://www.linkedin.com/in/dave-ruocco-04162b260"
               className="inline-flex text-white bg-sky-900	border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               Contact Me
