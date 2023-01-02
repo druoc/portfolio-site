@@ -5,7 +5,7 @@ export const projects = [
     subtitle: "Javascript, CSS",
     description:
       "Home page displaying Bitcoin price, local weather and changable backgrounds, utilising the Unsplash, Coingecko and OpenWeatherMap APIs",
-    link: "https://github.com/druoc/home-page",
+    link: "https://www.dave-dev.co.uk/home-page",
   },
   {
     id: 2,

@@ -24,6 +24,12 @@ const About = () => {
             >
               Check Out My Work
             </a>
+            <a
+              href="https://www.github.com/druoc"
+              className="ml-4 inline-flex text-white-400 bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              My Github
+            </a>
           </div>
         </div>
       </div>
