@@ -13,7 +13,7 @@ const Projects = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Below is a collection of some of the projects I've built during my
-            time as a trainee developer. Click on each one for more details.
+            time as a developer. Click on each to see the live project, or on the 'code' button to view the code repository on Github.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -24,7 +24,7 @@ const Projects = () => {
               className="sm:w-1/2 w-100 p-4"
             >
               <div className="flex relative">
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-sky-900 opacity-30 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-sky-900 opacity-50 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
@@ -32,6 +32,17 @@ const Projects = () => {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <div className="flex justify-center">
+                  <a
+                  href={project.githubLink}
+                  className="inline-flex text-white bg-sky-900 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-600 rounded text-lg w-30 h-10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                   View Code
+                  </a>
+
+            </div>
                 </div>
               </div>
             </a>
