@@ -8,8 +8,22 @@ const About = () => {
             <br />A full stack software developer from Leeds, West Yorkshire.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Initially self-taught, I am currently studying with the good folks
-            at Northcoders. Available for work from February 2023 onwards.
+            Initially coming from a healthcare background, I began learning
+            software development through self-taught means in 2021.
+            <br />
+            In 2022 I enrolled on Northcoders Software Development bootcamp in
+            order to take my learning to the next level and learn industry best
+            practices.
+            <br />
+            I graduated the course in February 2023, equipped with essential
+            skills and a hunger to learn more.
+            <br />
+            I'm actively seeking a challenging software developer role, whilst
+            continuing to enhance my skills and staying abreast of industry
+            trends.
+            <br />
+            <br />
+            Hit 'Contact Me' below to message me on LinkedIn
           </p>
           <div className="flex justify-center">
             <a

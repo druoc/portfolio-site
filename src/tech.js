@@ -1,13 +1,12 @@
 export const tech = [
-  "Javascript",
-  "Typescript",
-  "Sass",
+  "Javascript/Typescript",
+  "CSS/Sass",
   "Tailwind",
-  "React",
-  "Svelte",
+  "React/React Native",
   "NodeJS",
   "Express",
+  "PHP",
+  "C#.NET",
   "PostgreSQL",
   "Git",
-  "Vite",
 ];
