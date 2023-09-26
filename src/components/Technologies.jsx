@@ -4,7 +4,7 @@ import { CodeBracketIcon } from "@heroicons/react/24/solid";
 
 const Technologies = () => {
   return (
-    <section id="technologies">
+    <section id="technologies" className="min-h-screen">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <CodeBracketIcon className="w-10 inline-block mb-4" />

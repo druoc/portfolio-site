@@ -3,7 +3,7 @@ import { ComputerDesktopIcon } from "@heroicons/react/24/solid";
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="min-h-screen">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <ComputerDesktopIcon className="mx-auto inline-block w-10 mb-4" />
@@ -13,7 +13,8 @@ const Projects = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Below is a collection of some of the projects I've built during my
-            time as a developer. Click on each to see the live project, or on the 'code' button to view the code repository on Github.
+            time as a developer. Click on each to see the live project, or on
+            the 'code' button to view the code repository on Github.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -33,16 +34,15 @@ const Projects = () => {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <div className="flex justify-center">
-                  <a
-                  href={project.githubLink}
-                  className="inline-flex text-white bg-sky-900 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-600 rounded text-lg w-30 h-10"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >
-                   View Code
-                  </a>
-
-            </div>
+                    <a
+                      href={project.githubLink}
+                      className="inline-flex text-white bg-sky-900 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-600 rounded text-lg w-30 h-10"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Code
+                    </a>
+                  </div>
                 </div>
               </div>
             </a>
